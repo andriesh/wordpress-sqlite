@@ -1,0 +1,21 @@
+version: '3.3'
+
+networks:
+    wordpress:
+    host:
+      external: true
+
+services:
+  wordpress:
+    ports:
+      - 80:80
+    container_name: wp_wordpress
+    image: wp_sqlite
+    build: ./
+    restart: always
+    # environment:
+      # DOCKER_COMPOSE_YML_LOCATION: ${PWD}
+    volumes:
+      - ./wp-data:/var/www/html
+    networks:
+    - wordpress
