@@ -34,5 +34,3 @@ It comes preconfigured with sqlite-database-integration v1.8.1
 [https://github.com/WordPress/sqlite-database-integration](https://github.com/WordPress/sqlite-database-integration)
 
 [https://make.wordpress.org/core/2022/09/12/lets-make-wordpress-officially-support-sqlite/](https://make.wordpress.org/core/2022/09/12/lets-make-wordpress-officially-support-sqlite/)
-
-img[alt=wpsqlite] { width: 960px; }
