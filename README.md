@@ -1,12 +1,12 @@
-## Wordpress with SQLite integration
+# Wordpress with SQLite integration
 
-![](img/wpsqlite.jpg)
+![wpsqlite](img/wpsqlite.jpg)
 
 This project is based on wordpress:php8.2-apache official image which delivers dockerized Wordpress with SQLite as the backend database.
 
 It comes preconfigured with sqlite-database-integration v1.8.1
 
-### Why use SQLite?
+## Why use SQLite?
 
 - It is the most widely used database worldwide
 - It is cross-platform and can run on any device
@@ -14,7 +14,7 @@ It comes preconfigured with sqlite-database-integration v1.8.1
 - WordPress’s minimum requirements would be a simple PHP server,  without the need for a separate database server.
 - SQLite support enables lower hosting costs, decreases energy consumption, and lowers performance costs on lower-end servers.
 
-### Benefits of using SQLite on Wordpress?
+## Benefits of using SQLite on Wordpress?
 
 - Increased performance on lower-end servers and environments.
 - Potential for WordPress growth in markets where we did not have access due to the system’s requirements.
@@ -25,7 +25,7 @@ It comes preconfigured with sqlite-database-integration v1.8.1
 - Easier to use automated tests suite.
 - Sites can be “portable” and self-contained.
 
-#### **‼️ Do not remove the integration from the Plugins section or it will break the website**
+### **‼️ Do not remove the integration from the Plugins section or it will break the website**
 
 **Sources and inspirations:**
 
@@ -34,3 +34,5 @@ It comes preconfigured with sqlite-database-integration v1.8.1
 [https://github.com/WordPress/sqlite-database-integration](https://github.com/WordPress/sqlite-database-integration)
 
 [https://make.wordpress.org/core/2022/09/12/lets-make-wordpress-officially-support-sqlite/](https://make.wordpress.org/core/2022/09/12/lets-make-wordpress-officially-support-sqlite/)
+
+img[alt=wpsqlite] { width: 960px; }
